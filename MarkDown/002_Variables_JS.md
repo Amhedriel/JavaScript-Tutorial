@@ -16,8 +16,14 @@ Ahora guardemos este resultado en otra variable:
 
     c = a - b
     -1
+Debemos comprender que primero nuestro computador va a ejecutar lo que esta después del símbolo de asignacion y al resolverlo ese valor es asignado a la variable
+
 Entonces la variable c tiene la asignación del resultado de la suma de a - b que convierte a c en c == -1.
 
+Esto valores se guardan en la memoria RAM
+
+---
+## Alert
 Es momento de disparar una **alerta** (alert)
 
     alert(mensaje)
