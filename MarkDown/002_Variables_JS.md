@@ -24,14 +24,38 @@ Esto valores se guardan en la memoria RAM
 
 ---
 ## Alert
+
+`alert` es una *función*, una función es una serie de código largo o corto, pero es un bloque de código que tiene algún objetivo, en este caso el objetivo de `alert` es disparar una alerta (un mensaje de alerta en una ventana emergente en el navegador).
+
+Las **funciones** se "invocan"; invocar una función es traerla y ejecuatarla, la forma de traerla es abriendo paréntecis y cerrando paréntecis, los paréntecis hacen que la función se invoque, su tu no le agregas paréntesis y solamente le pones el nombre de la función es como si fuera una variable, esto es avanzado pero no lo veremos por ahora; dentro del paréntecis viene el **parámetro** es el valor que le mandas a la función para que ejecute algo.
+
+Como a las variables les asignas un valor:
+
+    a=1
+
+A las funciones les asignas un parámetro:
+
+    alert("mensaje");
+
+Cuando tienes una función, le habres un paréntesis y le pasas un parámetro "mensaje", ese mensaje se vá a la función y es lo que muestra
+
 Es momento de disparar una **alerta** (alert)
 
-    alert(mensaje)
+    alert("mensaje");
 
 Mostraremos un mensaje en la ventana del navegador con ayuda de esta **función**
 
     alert("Acabo de aprender a programar")
 
+## Strings
+
+Veamos ahora que `alert("mensaje");` tiene entre comillas un mensaje y si esto no tendría comillas sería como una variable, cuando colocas algo entre comillas dobles estás diciendo que esto es un texto **string** o cadena de texto, podemos tener variables con texto **strings**.
+
+    perro = "ciruelejo"
+
+Si está entre comillas la computadora sabrá que es un string, pero si no lo estubiera pensará que es una variable y buscará dicha variable, en cso de no encontrarla la variable `perro` no valdría nada.
+
+Programar es controlar el flujo de acciones de la computadora.
 
 ---
 ## Declarar Variables en JavaScript
