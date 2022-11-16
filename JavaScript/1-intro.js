@@ -64,7 +64,7 @@ let explorer = {
     nombre: "Nombre del Explorer",
     email: "email@innovaccion.mx",
     numReg: 12345,
-    mision: "FrontEnd",
+    mission: "FrontEnd",
     proyectos: ["Abogabot", "Taquería", "Pastelería", "Vacunación"],
     proPer: {
         escolar: "Tareas",

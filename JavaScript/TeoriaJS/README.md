@@ -1,6 +1,6 @@
-# Teoria de JavaScript
+# Teoría de JavaScript
 
-Aqui veremos algo de información acerca del lenguaje de programación interpretado JavaScript.
+Aquí veremos algo de información acerca del lenguaje de programación interpretado JavaScript.
 Los temas están ordenados de manera que se fue instruyendo en Innovaccion LaunchX y agregué algo de información extra complementaria.
 
 * [Intro](/JavaScript/TeoriaJS/001_intro.md "Introducción a JS")
