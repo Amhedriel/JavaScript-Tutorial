@@ -41,6 +41,20 @@ length: 5
 5
 ~~~
 
-Estos arreglos también se pueden recorrer, utilizar como condicionales, mapear y varias funcionalidades 
+Estos arreglos también se pueden recorrer, utilizar como condicionales, mapear y varias funcionalidades.
 
+Una cosa especial que tienen las cadenas, porque las cadenas en sí también se pueden tratar como `arreglos`, se pueden utilizar como si fueran un arreglo de caracteres individuales.
 
+Tenemos una "palabra" `string` y queremos ver la letra en la posición 2:
+
+~~~js
+let palabra = "Explorer";
+console.log(palabra[2]);
+console.log(palabra.length);
+
+5
+p
+8
+~~~
+
+Si nosotros vemos la longitud de la palabra `8` entonces el caracter de la posición `2` contando desde el `0` es la `p`

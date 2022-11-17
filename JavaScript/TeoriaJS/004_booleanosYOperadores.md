@@ -1,4 +1,4 @@
-# Valores booleanos
+# Valores booleanos y operadores
 
 Estos valores booleanos básicamente viene en ``true`` o ``false`` porque nada más pueden tener esos 2 estados o boolean y estas condiciones las podemos en flujos con operadores lógicos y los flujos condicionales.
 
@@ -42,4 +42,8 @@ console.log(numero3 != numero2);
 
 Con estas condicionales deberían ser todas true, porque en todas se cumplen.
 
-estas condicionales las podemos estar utilizando para que nos regrese `true` o `false` y basado en eso hacer nuestros ciclos condicionales
+estas condicionales las podemos estar utilizando para que nos regrese `true` o `false` y basado en eso hacer nuestros ciclos condicionales.
+
+## **``== ``o ``===``**
+
+La diferencia entre ``==`` e ``===`` es que el primero solo revisa los valores, por lo que no es muy exacto y el otro no solo revisa los valores, también revisa los tipos de datos.

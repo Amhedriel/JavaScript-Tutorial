@@ -2,10 +2,10 @@
 
 ### Algunas notas iniciales:
 
-Todo lo estaríamos viendo a travéz de un html, para podercargar el ``script``
+Todo lo estaríamos viendo a travéz de un html, para poder cargar el ``script``; además recordar que dependiendo dónde llamemos a JS será el orden en el que se ejecutará, o sea: antes de cargar la página (que cargara primero todo el ``script`` y luego la página)o después de cargar la página (que primero carga la página y después el `script`)
 
 ## **Java Script**
-Cuando nosotros estamos hablando de Java Script básicamente etamos hablando de un lenguaje que se denomina "Scripting", que es cómo estaríamos automatizando diferentes tareas.
+Cuando nosotros estamos hablando de Java Script básicamente estamos hablando de un lenguaje que se denomina "Scripting", que es cómo estaríamos automatizando diferentes tareas.
 
 Funciona con un `script` que se inyecta dentro de el html. Ahora a diferencia de la etiqueta de CSS `<link>` en caso de Java Script es ``<script src=""></script>``.
 
