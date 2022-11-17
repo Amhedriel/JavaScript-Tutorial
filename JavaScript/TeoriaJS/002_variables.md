@@ -50,3 +50,16 @@ var frase3 = `Ejemplo comillas ${frase1} invertidas`;
 console.log(frase1 + "\n" + frase2 + "\n" + frase3);
 ~~~
 
+## Undefined
+
+las variables `undefined` son variables declaradas pero que no tienen un valor definido actualmente se la vamos a dar cuando la inicialicemos.
+
+        let numero;
+
+Es: hasta que encontremos un valor no está definida, existe en el programa pero no está definida.
+
+## Null
+
+Las variables ``null`` están definidas e inicializadas, le estamos indicando que está vacía.
+
+        let numero = null;
