@@ -83,13 +83,13 @@ let listaDePalabras = [
 console.log(listaDePalabras);
 console.log(listaDePalabras.length);
 
-/* Las cadenas (strings) pueden ser tratadas como arreglos 
+/* Las cadenas (strings) pueden ser tratadas como arreglos */
 let palabra = "Explorer";
 console.log(palabra[2]);
 console.log(palabra.length);
 
 
-/* Los objetos son estructuras de datos que nos permiten agrupar datos de un diferentes tipos 
+/* Los objetos son estructuras de datos que nos permiten agrupar datos de un diferentes tipos */
 console.log("\n************* Objetos **************\n");
 
 let explorer = {
@@ -101,7 +101,8 @@ let explorer = {
     proPer: {
         escolar: "Tareas",
         profesional: "Trabajo",
-        personal: "Negocio"
+        personal: "Negocio",
+        cuantos: 3,
     }
 };
 
@@ -109,8 +110,10 @@ console.log(explorer);
 
 console.log(explorer.proPer.escolar);
 
+console.log("Proyectos: " + explorer.proPer.cuantos + " " +explorer.proPer.escolar);
 
-/* Flujo condicional 
+
+// Flujo condicional 
 let number1 = 2;
 let number2 = 6;
 console.log("\n************* if / else **************\n");
@@ -124,7 +127,7 @@ else {
   console.log("El número 2 es mayor que número 1");
 }
 
-/* Ciclo condicional 
+/* Ciclo condicional */
 console.log("\n************* While **************\n");
 let numberWhile = 5;
 while (numberWhile <= 12) {
