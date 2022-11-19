@@ -138,7 +138,7 @@ console.log("Aquí ya salió del while " + numberWhile);
 
 /* Ciclo condicional de una iteración mínimo */
 console.log("\n************* Do While **************\n");
-let numeroDoWhile = 22;
+let numeroDoWhile = 12;
 do {
     numeroDoWhile = numeroDoWhile + 2;
     console.log(numeroDoWhile);
@@ -146,7 +146,7 @@ do {
 console.log("Aquí sale del Do While " + numeroDoWhile);
 
 
-/* Ciclo for con iteración controlada 
+/* Ciclo for con iteración controlada */
 console.log("\n************* For **************\n");
 let numeroFor = 0
 for (numeroFor ; numeroFor <= 12; numeroFor = numeroFor + 1) {
