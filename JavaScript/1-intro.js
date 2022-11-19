@@ -136,7 +136,7 @@ while (numberWhile <= 12) {
 }
 console.log("Aquí ya salió del while " + numberWhile);
 
-/* Ciclo condicional de una iteración mínimo 
+/* Ciclo condicional de una iteración mínimo */
 console.log("\n************* Do While **************\n");
 let numeroDoWhile = 22;
 do {
