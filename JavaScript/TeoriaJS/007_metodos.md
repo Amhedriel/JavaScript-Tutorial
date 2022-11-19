@@ -72,10 +72,7 @@ Recordemos que los parámetros no se necesitan todas las funciones, y como a `.p
 
 En el resultado podemos ver que `.pop` quitó el último dato del arreglo y entonces solo nos quedan 7 datos, lo que nos muestra con `.length`
 
-
-
 ~~~js
-~~~
 
 console.log(listaDeNumeros);
 console.log(listaDeNumeros.length);
@@ -84,3 +81,12 @@ console.log(listaDeNumeros.length);
 let listaDePalabras = ["Explorer", "MisionComander", "LaunchX", "Innovaccion"];
 console.log(listaDePalabras);
 console.log(listaDePalabras.length);
+~~~
+
+---
+
+[**&#11176;** *Anterior* &#11007;](/JavaScript/TeoriaJS/006_arreglos.md "Arreglos") 
+[Siguiente **&#129042;**](/JavaScript/TeoriaJS/008_arreglosDeStrings.md "Arreglos de cadenas de texto `strings`")
+
+[*Volver* **&ldca;**](/JavaScript/TeoriaJS/README.md "Regresar a página Principal") 
+[*Subir* **&#11165;**](# "Ir al título")

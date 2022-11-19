@@ -2,7 +2,7 @@
 
 ## **Variables en JavaScript**
 
-Cuando hablamos en cosas de programación nosotros vamos a tener cosas que son **variables**, estas variables son com ocajas a los que le podemos asignar un valor y ese valor cambiará con respecto a cómo vayamos modificando el programa.
+Cuando hablamos en cosas de programación nosotros vamos a tener cosas que son **variables**, estas variables son com cajas a los que le podemos asignar un valor y ese valor cambiará con respecto a cómo vayamos modificando el programa.
 
 ## Cómo se definen variables
 
@@ -63,3 +63,11 @@ Es: hasta que encontremos un valor no está definida, existe en el programa pero
 Las variables ``null`` están definidas e inicializadas, le estamos indicando que está vacía.
 
         let numero = null;
+
+---
+
+[**&#11176;** *Anterior* &#11007;](/JavaScript/TeoriaJS/001_intro.md "Intro") 
+[Siguiente **&#129042;**](/JavaScript/TeoriaJS/003_strings.md "strings (cadenas)")
+
+[*Volver* **&ldca;**](/JavaScript/TeoriaJS/README.md "Regresar a página Principal") 
+[*Subir* **&#11165;**](# "Ir al título")

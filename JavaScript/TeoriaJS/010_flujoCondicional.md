@@ -83,3 +83,11 @@ if (number1 > number2 && number2 > 5) {
 
 Los números son iguales
 ~~~
+
+---
+
+[**&#11176;** *Anterior* &#11007;](/JavaScript/TeoriaJS/009_objetos.md " Objetos") 
+[Siguiente **&#129042;**](/JavaScript/TeoriaJS/011_cicloCondicional.md "Ciclo condicional")
+
+[*Volver* **&ldca;**](/JavaScript/TeoriaJS/README.md "Regresar a página Principal") 
+[*Subir* **&#11165;**](# "Ir al título")

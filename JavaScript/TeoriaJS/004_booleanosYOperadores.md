@@ -47,3 +47,11 @@ estas condicionales las podemos estar utilizando para que nos regrese `true` o `
 ## **``== ``o ``===``**
 
 La diferencia entre ``==`` e ``===`` es que el primero solo revisa los valores, por lo que no es muy exacto y el otro no solo revisa los valores, también revisa los tipos de datos.
+
+---
+
+[**&#11176;** *Anterior* &#11007;](/JavaScript/TeoriaJS/003_strings.md "strings (cadenas)") 
+[Siguiente **&#129042;**](/JavaScript/TeoriaJS/005_operadoresLogicos.md "Operadores lógicos JavaScript")
+
+[*Volver* **&ldca;**](/JavaScript/TeoriaJS/README.md "Regresar a página Principal") 
+[*Subir* **&#11165;**](# "Ir al título")

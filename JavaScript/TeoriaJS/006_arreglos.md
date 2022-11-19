@@ -2,7 +2,7 @@
 
 Básicamente hablando son vectores (una lista) y que esta lista se utilizará para tener ciertos valores dentro del mismo lugar.
 
-Los arreglos son estructuras de datos que nos permiten agrupar datos de un mismo tipo, si nosotros queremos tener un ``arreglo`` de **palabras** todos los datos deben ser **palabras**, si vamos a crear un `arreglo` de **números** todos deben ser **números** ahí, no puede colocar un caracter distino o un `string`, si nosotros vamos a tener un `arreglo` de **objetos** todos deben ser **objetos**.
+Los arreglos son estructuras de datos que nos permiten agrupar datos de un mismo tipo, si nosotros queremos tener un ``arreglo`` de **palabras** todos los datos deben ser **palabras**, si vamos a crear un `arreglo` de **números** todos deben ser **números** ahí, no puede colocar un caracter distinto o un `string`, si nosotros vamos a tener un `arreglo` de **objetos** todos deben ser **objetos**.
 
 Nosotros declaramos un arreglo entre corchetes
 
@@ -27,3 +27,11 @@ En caso de que pidamos un dato que sobrepase la cantidad que tenemos guardado en
     undefined
 
 En JavaScript cuando algo no se puede leer se dice como que es **indefinido**, no es solo que no se puede leer, es algo que no existe.
+
+---
+
+[**&#11176;** *Anterior* &#11007;](/JavaScript/TeoriaJS/005_operadoresLogicos.md "Operadores lógicos JavaScript") 
+[Siguiente **&#129042;**](/JavaScript/TeoriaJS/007_metodos.md "Métodos")
+
+[*Volver* **&ldca;**](/JavaScript/TeoriaJS/README.md "Regresar a página Principal") 
+[*Subir* **&#11165;**](# "Ir al título")

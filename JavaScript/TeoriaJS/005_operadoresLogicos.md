@@ -101,3 +101,12 @@ Resultados:
 ~~~
 
 Todo lo que vimos lo iremos utilizando en "Flujos Condicionales".
+
+
+---
+
+[**&#11176;** *Anterior* &#11007;](/JavaScript/TeoriaJS/004_booleanosYOperadores.md "Valores booleanos y operadores") 
+[Siguiente **&#129042;**](/JavaScript/TeoriaJS/006_arreglos.md "Arreglos")
+
+[*Volver* **&ldca;**](/JavaScript/TeoriaJS/README.md "Regresar a página Principal") 
+[*Subir* **&#11165;**](# "Ir al título")

@@ -58,3 +58,11 @@ p
 ~~~
 
 Si nosotros vemos la longitud de la palabra `8` entonces el caracter de la posición `2` contando desde el `0` es la `p`
+
+---
+
+[**&#11176;** *Anterior* &#11007;](/JavaScript/TeoriaJS/007_metodos.md "Métodos") 
+[Siguiente **&#129042;**](/JavaScript/TeoriaJS/009_objetos.md "Objetos")
+
+[*Volver* **&ldca;**](/JavaScript/TeoriaJS/README.md "Regresar a página Principal") 
+[*Subir* **&#11165;**](# "Ir al título")

@@ -33,3 +33,11 @@ console.log("Aquí ya salió del while " + numberWhile);
 11
 Aquí ya salió del while 13
 ~~~
+
+---
+
+[**&#11176;** *Anterior* &#11007;](/JavaScript/TeoriaJS/010_flujoCondicional.md "Flujo condicional") 
+[Siguiente **&#129042;**](/JavaScript/TeoriaJS/012_cicloDeIteracionMinimo.md "Ciclo condicional de una iteración mínimo")
+
+[*Volver* **&ldca;**](/JavaScript/TeoriaJS/README.md "Regresar a página Principal") 
+[*Subir* **&#11165;**](# "Ir al título")

@@ -27,7 +27,7 @@ console.log("Variables");
 
 ### `console.log()`
 
-Es para imprimir en consola. Nostros escribiremos en consola y esta lo va a interpretar
+Es para imprimir en consola. Nosotros escribiremos en consola y esta lo va a interpretar
 
 ~~~c
 console.log('hola explorers')
@@ -42,13 +42,13 @@ En esta consola es donde estaríamos viendo todos nuestros resultados.
 
 ## Qué puede hacer?
 
-El núcleo del lenguaje JavaScript de lado del cliente consta de algunas características de progrmación comunes que te permiten hacer cosas increíbles.
+El núcleo del lenguaje JavaScript de lado del cliente consta de algunas características de programación comunes que te permiten hacer cosas increíbles.
 
-Lo que aún es más emocionante es la funcionalidad construida sobre lenguaje JavaScript de lado del cliente. Las denominadas **interfaces de programación de aplicaciones (API)** te proporcionan superpoderes adicionales para utilizar en tu código JavaScript.
+Lo que aún es más emocionante es la funcionalidad construida sobre lenguaje JavaScript de lado del cliente. Las denominadas **interfaces de programación de aplicaciones (API)** te proporcionan super poderes adicionales para utilizar en tu código JavaScript.
 
 ## API
 
-Son un conjunto de bloques de construcción de código listos para usar, que permiten a un desrrollador implementar programas que de otro modo serían difíciles o imposibles de implementar. Hacen lo mismo para la programación que los kits de muebles prefabricados para la construcción de viviendas - es mucho más fácil tomar paneles precortados y atornillados para hacer una estantería que elaborar el diseño uno mismo.
+Son un conjunto de bloques de construcción de código listos para usar, que permiten a un desarrollador implementar programas que de otro modo serían difíciles o imposibles de implementar. Hacen lo mismo para la programación que los kits de muebles prefabricados para la construcción de viviendas - es mucho más fácil tomar paneles pre cortados y atornillados para hacer una estantería que elaborar el diseño uno mismo.
 
 Generalmente se dividen en 2.
 
@@ -64,6 +64,15 @@ Generalmente se dividen en 2.
 
 2. Las ***APIs de terceros*** que no están integradas en el navegador de forma predeterminada y, por lo general, debes obtener su código e información de algún lugar de la WEB.
 
-* La **API de Twiter** permite hacer cosas como mostrar tus últimos twets en tu sitio web.
+* La **API de Twitter** permite hacer cosas como mostrar tus últimos twetts en tu sitio web.
 
 * La **API de Google Maps** y la **API de OpenStreetMap** que permiten insertar mapas personalizados en tu sitio web y otras funciones similares.
+
+
+---
+
+[**&#11176;** *Anterior* &#11007;](/JavaScript/TeoriaJS/README.md "Regresar a página anterior") 
+[Siguiente **&#129042;**](/JavaScript/TeoriaJS/002_variables.md "Variables")
+
+[*Volver* **&ldca;**](/JavaScript/TeoriaJS/README.md "Regresar a título") 
+[*Subir* **&#11165;**](# "Ir al título")

@@ -59,3 +59,11 @@ Proyectos: 3 Tareas
 ~~~
 
 Así es como podemos estar viendo y utilizando cada uno de estos valores de los objetos.
+
+---
+
+[**&#11176;** *Anterior* &#11007;](/JavaScript/TeoriaJS/008_arreglosDeStrings.md " Arreglos de cadenas de texto `strings`") 
+[Siguiente **&#129042;**](/JavaScript/TeoriaJS/010_flujoCondicional.md "Flujo condicional")
+
+[*Volver* **&ldca;**](/JavaScript/TeoriaJS/README.md "Regresar a página Principal") 
+[*Subir* **&#11165;**](# "Ir al título")
