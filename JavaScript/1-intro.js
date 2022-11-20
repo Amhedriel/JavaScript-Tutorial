@@ -154,10 +154,28 @@ for (numeroFor ; numeroFor <= 12; numeroFor = numeroFor + 1) {
 }
 console.log("Aquí salimos del for " + numeroFor);
 
-/*
-/* Opciones para evitar anidar condicionales
+
+/* Opciones para evitar anidar condicionales*/
+
+// console.log("\n************* Switch **************\n");
+// switch (prompt("¿Cómo está el clima?")) {
+//   case "lluvioso":
+//     console.log("No te vayas a mojar");
+//     break;
+//   case "soleado":
+//     console.log("Ponte bloqueador");
+//     break;
+//   case "nublado":
+//     console.log("Tapate bien");
+//     break;
+//   default:
+//     console.log("No se como está el clima");
+//     break;
+// }
+// console.log("Aquí salimos del Switch");
+
 console.log("\n************* Switch **************\n");
-switch (prompt("¿Cómo está el clima?")) {
+switch (prompt("¿Cómo está el clima? lluvioso? soleado? nublado? otro")) {
   case "lluvioso":
     console.log("No te vayas a mojar");
     break;
@@ -171,5 +189,4 @@ switch (prompt("¿Cómo está el clima?")) {
     console.log("No se como está el clima");
     break;
 }
-console.log("Aquí salimos del Switch");*/
-
+console.log("Aquí salimos del Switch");
