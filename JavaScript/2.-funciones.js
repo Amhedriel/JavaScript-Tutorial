@@ -23,19 +23,18 @@ const exponencial = function (base, exponente) {
     }
     return resultado;
 }
+let resultadoExponencial = exponencial(2, 17);
+console.log(resultadoExponencial);
 
-console.log(exponencial(4,3))
-
-
-/*
+//
 console.log(sumar(5,65));
 function sumar(x, y) {
     return x + y;
-}
+  }
 
-
+  
 const restar = (a, b) => {
-    return a - b;
+  return a - b;
 }
 console.log(restar(40, 8));
 
@@ -49,6 +48,7 @@ console.log("Bye");
 
 
 
+/*
 //Excepciones
 function preguntaDireccion(pregunta) {
   let result = prompt(pregunta);
