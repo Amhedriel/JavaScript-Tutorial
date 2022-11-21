@@ -38,7 +38,7 @@ const restar = (a, b) => {
 }
 console.log(restar(40, 8));
 
-
+/*
 function saludar(quien) {
   console.log("Hola " + quien);
   return;

@@ -116,8 +116,8 @@ console.log(resultadoExponencial);
 
 ---
 
-[**&#11176;** *Anterior* &#11007;](/JavaScript/TeoriaJSMedio/001.1_llamarUnaFunci%C3%B3n.md "Llamar") 
-[Siguiente **&#129042;**](/JavaScript/TeoriaJSMedio/003 "")
+[**&#11176;** *Anterior* &#11007;](/JavaScript/TeoriaJSMedio/002_funcionesVacias.md "void") 
+[Siguiente **&#129042;**](/JavaScript/TeoriaJSMedio/004_adicionYSustraccion.md "Adición y sustracción con otra forma de definir funciones")
 
 [*Volver* **&ldca;**](/JavaScript/TeoriaJSMedio/README.md "Regresar a título") 
 [*Subir* **&#11165;**](# "Ir al título")
