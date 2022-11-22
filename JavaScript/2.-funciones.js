@@ -48,7 +48,6 @@ console.log("Bye");
 
 
 
-/*
 //Excepciones
 function preguntaDireccion(pregunta) {
   let result = prompt(pregunta);
@@ -58,7 +57,7 @@ function preguntaDireccion(pregunta) {
 }
 
 function mirar() {
-  if (preguntaDireccion("A que lado?") == "I") {
+  if (preguntaDireccion("A que lado quieres mirar, izquierda o derecha?") == "I") {
     return "una casa";
   } else {
     return "2 osos hambrientos";
@@ -66,12 +65,12 @@ function mirar() {
 }
 
 try {
-  console.log("Mira a ", mirar());
+  console.log("Mira ", mirar());
 } catch (error) {
   console.log("Hubo un error: " + error);
 }
 
-
+/*
 
 //Asincrono
 setTimeout(() => console.log("Tick"), 500);
