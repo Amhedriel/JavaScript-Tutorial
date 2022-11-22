@@ -10,6 +10,7 @@ Las excepciones són justamente para evitar que al estar ejecutándose nuestro p
 // Una función que se llama "preguntaDireccion" y a esto le manda una "pregunta"
 function preguntaDireccion(pregunta) {
   let result = prompt(pregunta);
+  // Sanitización de entrada a minúsculas
   if (result.toLowerCase() == "izquierda") return "I";
   if (result.toLowerCase() == "derecha") return "D";
   throw new Error("Dirección inválida: " + result);
@@ -44,6 +45,35 @@ Si no se elige ninguno entonces saltaremos a `throw new Error("Dirección invál
 
 En función mirar `function mirar(){}` nos mostrará el resultado según nosotros hayamos elegido antes `if (preguntaDireccion("A que lado?") == "I") {return "una casa";}` si elegimos a la izquierda, `else {return "2 osos hambrientos";}` si elegimos a la derecha
 
+Otra manera perfectamente válida de codificar con resultados similares pero más limpia:
+
+~~~js
+const preguntar = (pregunta) => {
+  let respuesta = prompt(pregunta);
+  respuesta = respuesta.toLowerCase();
+  //la siguiente linea es válida usarla sin llaves {} debido a que está escrita en una sola línea de código
+  if (respuesta == "izquierda" || respuesta == "derecha") return respuesta;
+  // este es un error custom, un error que nosotros le estamos dando
+  throw new Error("Dirección inválida " + respuesta);
+};
+
+const mirar2 = () => {
+  let aDonde = preguntar("A que lado quieres mirar, izquierda o derecha?");
+  if (aDonde== "izquierda"){
+    return "Una casa";
+  } else {
+    return "2 osos hambrientos";
+  }
+};
+
+// Esto se puede hacer como una ayuda en depuración
+try{
+  let aDonde = mirar2();
+  console.log("Mirar a", aDonde);
+} catch (error) {
+  console.log("Hubo un error ", error);
+};
+~~~
 
 ---
 

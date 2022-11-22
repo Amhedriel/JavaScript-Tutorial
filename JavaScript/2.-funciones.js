@@ -47,7 +47,7 @@ saludar("Explorer");
 console.log("Bye");
 
 
-
+/*
 //Excepciones
 function preguntaDireccion(pregunta) {
   let result = prompt(pregunta);
@@ -69,9 +69,35 @@ try {
 } catch (error) {
   console.log("Hubo un error: " + error);
 }
+*/
+
+// Excepciones 2
+
+const preguntar = (pregunta) => {
+  let respuesta = prompt(pregunta);
+  respuesta = respuesta.toLowerCase();
+  if (respuesta == "izquierda" || respuesta == "derecha") return respuesta;
+  throw new Error("Dirección inválida " + respuesta);
+};
+
+const mirar2 = () => {
+  let aDonde = preguntar("A que lado quieres mirar, izquierda o derecha?");
+  if (aDonde== "izquierda"){
+    return "Una casa";
+  } else {
+    return "2 osos hambrientos";
+  }
+};
+
+try{
+  let aDonde = mirar2();
+  console.log("Mirar a", aDonde);
+} catch (error) {
+  console.log("Hubo un error", error);
+};
+
 
 /*
-
 //Asincrono
 setTimeout(() => console.log("Tick"), 500);
 
