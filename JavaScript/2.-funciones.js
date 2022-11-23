@@ -70,7 +70,7 @@ try {
   console.log("Hubo un error: " + error);
 }
 */
-
+/*
 // Excepciones 2
 
 const preguntar = (pregunta) => {
@@ -94,10 +94,10 @@ try{
   console.log("Mirar a", aDonde);
 } catch (error) {
   console.log("Hubo un error", error);
-};
+};*/
 
 
-/*
+
 //Asincrono
 setTimeout(() => console.log("Tick"), 500);
 
@@ -110,7 +110,8 @@ const promesa = () =>
       () => (resolve(console.log('Todo cool')), reject(new Error('oops'))),
       2000
     )
-  )
+  );
+
 
 async function main() {
   //   promesa()
@@ -128,5 +129,3 @@ async function main() {
 }
 
 main();
-
-*/
