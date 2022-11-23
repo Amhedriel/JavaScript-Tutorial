@@ -73,9 +73,7 @@ console.log(restar(40, 8));
 32
 ~~~
 Esto no solo se limita a números.
-~~~js
 
-~~~
 ---
 
 [**&#11176;** *Anterior* &#11007;](/JavaScript/TeoriaJSMedio/003_funcionExponencial.md "Llamar") 

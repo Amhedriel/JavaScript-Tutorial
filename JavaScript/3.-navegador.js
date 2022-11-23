@@ -1,14 +1,14 @@
 //Encontrar elementos de HTML
 
 const titulo = document.getElementById("titulo");
-const parrafo = document.getElementsByTagName("p");
+const párrafo = document.getElementsByTagName("p");
 const links = document.getElementsByClassName("links");
 
 
 //Cambiar valores de HTML
 titulo.innerHTML = "Titulo cambiado";
 
-document.getElementById("demo").innerHTML = 'The text in first paragraph (index 0) is: ' + parrafo[0].innerHTML;
+document.getElementById("demo").innerHTML = 'The text in first paragraph (index 0) is: ' + párrafo[0].innerHTML;
 
 links[0].href = "google.com"; 
 
@@ -32,7 +32,7 @@ function mOut(obj) {
 
 function mDown(obj) {
   obj.style.backgroundColor = "#1ec5e5";
-  obj.innerHTML = "sueltame";
+  obj.innerHTML = "soltame";
 }
 
 function mUp(obj) {

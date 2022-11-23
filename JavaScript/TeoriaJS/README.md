@@ -14,17 +14,11 @@ Los temas están ordenados de manera que se fue instruyendo en Innovaccion Launc
 * [Objetos](/JavaScript/TeoriaJS/009_objetos.md "Objetos")
 * [Flujo Condicional](/JavaScript/TeoriaJS/010_flujoCondicional.md "Flujo Condicional if elseif else")
 * [Ciclo Condicional](/JavaScript/TeoriaJS/011_cicloCondicional.md "Ciclo Condicional While")
-* []( "")
-* []( "")
-* []( "")
-* []( "")
-* []( "")
-* []( "")
-* []( "")
-* []( "")
-* []( "")
-* []( "")
-* []( "")
+* [Ciclo condicional de una iteración mínimo](/JavaScript/TeoriaJS/012_cicloDeIteracionMinimo.md "while, do while")
+* [ Ciclo condicional de una iteración mínimo](/JavaScript/TeoriaJS/013_cicloForItercacionControlada.md "for")
+* [Opciones para evitar anidar condicionales](/JavaScript/TeoriaJS/014_evitarAnidarCondicionales.md "switch")
+
+Terminado esto lo siguiente es conocer y saber manejar las funciones, arrays, etc.
 
 ---
 
