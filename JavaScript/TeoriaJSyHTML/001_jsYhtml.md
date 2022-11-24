@@ -87,4 +87,10 @@ Estas formas de selectores vamos a estar utilizando para poder seleccionar cuale
 Entonces, que tipo de variable es este `const titulo = document.getElementById("titulo");` sabemos que en este caso es una constante, con un elemento de html, ahora tengamos en cuenta que tenemos `.getElementById`, `.getElementsByTagName` y `.getElementsByClassName` esto se diría que son las formas en las que nosotros podemos identificar, ahora por eso se decía que todos los elementos deberían tener un `id=""` y porque con JS y CSS podemos estar seleccionándolos y en JS es más fácil seleccionarlos por `id` que por otra cosa.
 
 
+---
 
+[**&#11176;** *Anterior* &#11007;](/JavaScript/TeoriaJSyHTML/README.md "Regresar a página anterior") 
+[Siguiente **&#129042;**](/JavaScript/TeoriaJSyHTML/002_manipulandoEtiquetas.md "Manipulando etiquetas .getElements;")
+
+[*Volver* **&ldca;**](/JavaScript/TeoriaJSMedio/README.md "Regresar a título") 
+[*Subir* **&#11165;**](# "Ir al título")

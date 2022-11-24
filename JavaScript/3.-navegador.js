@@ -1,17 +1,19 @@
 //Encontrar elementos de HTML
 
 const titulo = document.getElementById("titulo");
-const párrafo = document.getElementsByTagName("p");
+const parrafo = document.getElementsByTagName("p");
 const links = document.getElementsByClassName("links");
 
-
 //Cambiar valores de HTML
-titulo.innerHTML = "Titulo cambiado";
+titulo.innerHTML = "Título cambiado";
 
-document.getElementById("demo").innerHTML = 'The text in first paragraph (index 0) is: ' + párrafo[0].innerHTML;
+
+document.getElementById("demo").innerHTML = 
+  'The text in first paragraph (index 0) is: ' + parrafo[0].innerHTML;
 
 links[0].href = "google.com"; 
 
+/*
 //Cambiar estilos
 
 titulo.style.color = "red"
@@ -48,3 +50,4 @@ boton.addEventListener("click", alerta)
 function alerta() {
     alert("alerta");
 }
+*/

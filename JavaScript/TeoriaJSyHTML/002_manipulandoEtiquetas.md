@@ -28,3 +28,11 @@ Existe pero no se usa, más se usan los primeros 3.
 ---
 
 Eso recordemos que con los selectores, el elemento como tal, etiqueta, id o la clase
+
+---
+
+[**&#11176;** *Anterior* &#11007;](/JavaScript/TeoriaJSyHTML/001_jsYhtml.md "Uniendo JS y HTML") 
+[Siguiente **&#129042;**](/JavaScript/TeoriaJSyHTML/003_funciones.md "Funciones")
+
+[*Volver* **&ldca;**](/JavaScript/TeoriaJSMedio/README.md "Regresar a título") 
+[*Subir* **&#11165;**](# "Ir al título")
