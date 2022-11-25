@@ -9,15 +9,15 @@ titulo.innerHTML = "Título cambiado";
 
 
 document.getElementById("demo").innerHTML = 
-  'The text in first paragraph (index 0) is: ' + parrafo[0].innerHTML;
+  'El texto en el párrafo (index 0) es: ' + parrafo[0].innerHTML;
 
 links[0].href = "google.com"; 
 
-/*
 //Cambiar estilos
 
 titulo.style.color = "red"
 
+/*
 //Eventos
 
 function cambiarTexto(obj) {
