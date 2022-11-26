@@ -27,4 +27,15 @@ También se podrá revisar los ejemplos u operaciones con la documentación tant
 * [Pokedex.html](/JavaScript/4.-pokedex.html "")
 * [Pokedex.js](/JavaScript/4.-pokedex.html "")
 
+Todas las funciones que vimos son la manipulación del DOM
+
+Preguntas:
+
+¿Es mejor usar solo JavaScript en lugar de CSS?
+
+R. Aunque puedes manipular el CSS se diría que definitivamente **NO**.
+
+¿Que tan común es hacer cambios desde JavaScript en lugar de directamente usar HTML?
+
+R. La verdad no es tán común pero en este tutorial lo manejamos así para hacer una demostración mas general.
 

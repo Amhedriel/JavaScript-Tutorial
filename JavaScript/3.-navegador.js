@@ -15,9 +15,9 @@ links[0].href = "google.com";
 
 //Cambiar estilos
 
-titulo.style.color = "red"
+titulo.style.color = "red";
+titulo.style.border = "solid";
 
-/*
 //Eventos
 
 function cambiarTexto(obj) {
@@ -25,11 +25,11 @@ function cambiarTexto(obj) {
 }
 
 function mOver(obj) {
-    obj.innerHTML = "Mouse over now"
+    obj.innerHTML = "Mouse encima"
 }
 
 function mOut(obj) {
-    obj.innerHTML = "Mouse out"
+    obj.innerHTML = "Mouse afuera"
 }
 
 function mDown(obj) {
@@ -42,12 +42,13 @@ function mUp(obj) {
   obj.innerHTML="gracias";
 }
 
+
 //addEventListener
 
 const boton = document.getElementById("boton");
-boton.addEventListener("click", alerta)
+boton.addEventListener("click", alerta);
+
 
 function alerta() {
     alert("alerta");
 }
-*/
