@@ -7,6 +7,17 @@ Todo lo estaríamos viendo a travéz de un html, para poder cargar el ``script``
 ## **Java Script**
 Cuando nosotros estamos hablando de Java Script básicamente estamos hablando de un lenguaje que se denomina "Scripting", que es cómo estaríamos automatizando diferentes tareas.
 
+Es un lenguaje de programación
+  - Iterpretado.
+  - Orientado a objetos.
+  - Imperativo.
+  - Case sensitive.
+  - Basado en prototipos /instancias / classless.
+  - De Tipado débil.
+  - Lenguaje Dinámico.
+
+  - ECMAScript (5.1 y 6, 7, 8, Next).
+
 Funciona con un `script` que se inyecta dentro de el html. Ahora a diferencia de la etiqueta de CSS `<link>` en caso de Java Script es ``<script src=""></script>``.
 
 ## Consola
@@ -44,7 +55,43 @@ En esta consola es donde estaríamos viendo todos nuestros resultados.
 
 El núcleo del lenguaje JavaScript de lado del cliente consta de algunas características de programación comunes que te permiten hacer cosas increíbles.
 
+Lo podemos usar para hacer el dinamismo de los sitios web, es decir, para que todos los sitios web sean dinámicos debemos implementar JavaScript, no solo en el BackEnd también por el lado del cliente.
+
+Como dijimos en BackEnd lo utilizamos con servidores en Node.js.
+
+También tenemos Frameworks y Libraries con tecnologías FrontEnd como Angular, React o Vue.js que nos permiten crear código de una forma más sencilla, reduce la cantidad de código y suele ser más óptimo.
+
 Lo que aún es más emocionante es la funcionalidad construida sobre lenguaje JavaScript de lado del cliente. Las denominadas **interfaces de programación de aplicaciones (API)** te proporcionan super poderes adicionales para utilizar en tu código JavaScript.
+
+También tiene otros usos como:
+
+- Inteligencia Artificial con tensor Flow.
+- Placas electrónicas como Arduino.
+- Mobile Apps.
+- Desktop Apps.
+- Video Juegos.
+
+## La etiqueta `script`
+
+Los programas de JavaScript se pueden insaertar en casi cualquier parte de un documento HTML con el uso de la etiqueta `<script></script>`
+
+```html
+<!DOCTYE html>
+<html>
+  <body>
+    <p> Antes del script...</p>
+    
+    <script>
+      alert( "¡Hola, Mundo!");
+    <script>
+
+    <p>...Después del script</p>
+  </body>
+</html>
+
+```
+Pero esto se considera mala práctica.
+
 
 ## API
 

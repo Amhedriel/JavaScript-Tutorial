@@ -85,7 +85,7 @@ const titulo = document.getElementById("titulo");
 const parrafo = document.getElementsByTagName("p");
 const links = document.getElementsByClassName("links");
 
-// creamos un console.lo(); para ver el resultado en consola
+// creamos un console.log(); para ver el resultado en consola
 console.log(parrafo);
 
 // el resultado es un arreglo con todos los <p>
