@@ -4,7 +4,9 @@ Un tutorial creado en bases a mis conocimientos con respecto a este lenguaje, co
 
 ## JavaScript primeros pasos
 
-Bueno, empecemos con lo básico en JavaScript que en este tutorial se encuentra en la carpeta JavaScript/TeoriaJS, lo visto aquí está representado de forma práctica con los archivos "index.html", "index.js", "styles.css", "1-intro.html" y "1-intro.js" de momento son los utilizados, se irá ampliando según sea necesario.
+Bueno, empecemos con lo básico en JavaScript que en este tutorial se encuentra en la carpeta JavaScript/TeoriaJS, lo visto aquí está representado de forma práctica con los archivos "index.html", "main.js", "styles.css", "1-intro.html" y "1-intro.js" de momento son los utilizados, se irá ampliando según sea necesario.
+
+* [Bienvenida](/JavaScript/README.md)
 
 Para poder continuar con la lectura revisen:
 
