@@ -210,7 +210,44 @@ myBirthday = "01. 01. 1998"; // Error no se puede reasignar la constante
 ---
 ## Number
 
+El tipo `number` en JavaScript representa tanto números enteros (int) como de punto  flotante (float). En otros lenguajes de programación puede existir diferentes tipos numéricos, por ejemplo: Integers, Floats, Doubles, Bignums, etc.
 
+```js
+let n = 123;
+n = 12.345;
+```
+
+Operaciones para números, `*`, `/`, `+`, `-`, y demás.
+
+Además de los números comunes, existen los llamados "valores numéricos especiales" que también pertenecen a este tipo de datos: `Infinity`, `-Infinity` y `NaN`.
+
+* `Infinity` representa el infinito matemático. Es un valor especial que es mayor que cualquier número.
+
+Podemos obtenerlo como resultado de la división por cero:
+
+```js
+alert(1 / 0); // Infinity
+```
+O simplemente hacer referencia a él directamente:
+
+```js
+alert(Infinity); // Infinity
+```
+* `NaN` representa un error de cálculo. Es el resultado de una operación matemática incorrecta o indefinida, por ejemplo:
+
+```js
+alert( "no es un número" / 2); // NaN, tal división es errónea
+```
+Cualquier otra operación sobre `NaN` devuelve `NaN`:
+
+```js
+console.log(NaN + 1); // NaN
+console.log(3 * NaN); // NaN
+console.log( "not a number" / 2 -1); // NaN
+```
+Por lo tanto, si hay un `NaN` en alguna parte de una expresión matemática, se propaga a todo el resultado (con una única excepción: `NaN ** 0` es `1`).
+
+El `script` nunca se detendrá con un error fatal ("morir"). En el peor de los casos, obtendremos ``NaN`` como resultado.
 
 ---
 ## Strings
