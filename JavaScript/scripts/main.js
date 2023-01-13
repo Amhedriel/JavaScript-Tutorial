@@ -146,6 +146,7 @@ alert( num.toString(2));  // 11111111
 
 /*---------------STRINGS----------------*/
 
+/*
 let guestList = `Invitados:
 * juan
 * Pedro
@@ -153,3 +154,89 @@ let guestList = `Invitados:
 `;
 
 alert(guestList); 
+*/
+/*
+for (let char of 'Hola') {
+  alert(char); // H,o,l,a (char se convierte en "H", luego "o", luego "l", etc.)
+}
+*/
+/*
+// Comparar cadenas
+
+let a = "a"
+let b = "b"
+
+if (a < b) {  // true
+  console.log(a + "es menor que" + b)
+  }
+  else if (a > b){
+    console.log(a + "es mayor que" + b)
+  }
+    else {
+    console.log(a + "y" +b+ "son iguales.")
+  }
+*/
+
+// MAYUSCULAS minusculas
+/*
+alert("Interfaz".toUpperCase());
+alert("Interfaz".toLowerCase());
+*/
+/*
+console.log("Interfaz"[0].toLowerCase());
+console.log("interfaz"[0].toUpperCase());
+*/
+/*
+function esIgual(str1, str2){
+  return str1.toUpperCase() === str2.toUpperCase()
+
+} // esIgual
+*/
+/*
+let str = "Widget con id";
+
+console.log(str.indexOf("Widget"));
+console.log(str.indexOf("widget"));
+
+console.log(str.indexOf("id"));
+
+alert(str.indexOf("id", 2));
+*/
+
+/*
+const str = "Tres tristes tigres trigan trigo en un trigal, con tres tristes trigos trigrando por tres tigres";
+
+let objetivo = "tres"; // busquemos por él
+
+let pos = 0;
+
+console.log(str);
+console.log(objetivo);
+console.log(pos);
+
+while (true){
+  let encontrarPos = str.indexOf(objetivo, pos);
+  if(encontrarPos == -1) break;
+  
+  alert(`Encontrado en ${encontrarPos}`);
+  pos = encontrarPos + 1;
+  
+  console.log(pos);
+  
+}
+*/
+/*
+const str = "Tres tristes tigres trigan trigo en un trigal, con tres tristes trigos trigrando por tres tigres";
+
+let objetivo = "tres"; // La palabra que buscamos.
+
+let pos = -1;
+
+while ((pos = str.indexOf(objetivo, pos +1))!= -1){
+  alert(pos)
+};
+*/
+
+
+
+

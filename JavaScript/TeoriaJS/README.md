@@ -1,5 +1,9 @@
 # Teoría de JavaScript
 
+JavaScript, un lenguaje de programación multiparadigma dirigido por eventos, funcional Hiperativo, procedimental orientado a objetos.
+
+Se utiliza en el lado del cliente para dar interactividad a las páginas web y aplicaciones, en el lado del servidor con Node.js.
+
 Aquí veremos algo de información acerca del lenguaje de programación interpretado JavaScript.
 Los temas están ordenados de manera que se fue instruyendo en Innovaccion LaunchX y agregué algo de información extra complementaria.
 
