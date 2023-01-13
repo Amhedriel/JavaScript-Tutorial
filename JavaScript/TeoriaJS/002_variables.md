@@ -24,9 +24,9 @@ Nosotros en programación tenemos lo que e definen como palabras reservados, que
 
 En nuestro caso estamos usando JavaScript y para definir una variable debemos usar la palabra reservada **var** que está casi en desuso hoy en día, pero también tenemos otra llamada **let** que es la más utilizada.
 
-Las variables se pueden declarar con la palabra reservada "var", estas variables se pueden considerar como globales.
-También se pueden declarar con la palabra reservada "let" y estas serán usadas dentro de un bloque de código.
-Igualmente está la declaración con la palabra reservada "const" y se usarán cuando el valor no cambie.
+* Las variables se pueden declarar con la palabra reservada ***"var"***, estas variables se pueden considerar como globales.
+* También se pueden declarar con la palabra reservada ***"let"*** y estas serán usadas dentro de un bloque de código.
+* Igualmente está la declaración con la palabra reservada ***"const"*** y se usarán cuando el valor no cambie.
 
 Para generar una **variable** en JavaScript, generalmente usamos `let`.
 
@@ -212,6 +212,8 @@ myBirthday = "01. 01. 1998"; // Error no se puede reasignar la constante
 
 El tipo `number` en JavaScript representa tanto números enteros (int) como de punto  flotante (float). En otros lenguajes de programación puede existir diferentes tipos numéricos, por ejemplo: Integers, Floats, Doubles, Bignums, etc.
 
+El constructor `Number` contiene constantes y métodos para trabajar con número. Valores de otro tipo pueden ser convertidos a números usando la función `Number()`.
+
 ```js
 let n = 123;
 n = 12.345;
@@ -290,7 +292,7 @@ Las variables ``null`` están definidas e inicializadas, le estamos indicando qu
 
 ---
 
-[**&#11176;** *Anterior* &#11007;](/JavaScript/TeoriaJS/001_intro.md "Intro") 
+[**&#11176;** *Anterior* &#11007;](/JavaScript/TeoriaJS/001.1_estructuraDelCodigo.md "Estructura del código") 
 [Siguiente **&#129042;**](/JavaScript/TeoriaJS/003_strings.md "strings (cadenas)")
 
 [*Volver* **&ldca;**](/JavaScript/TeoriaJS/README.md "Regresar a página Principal") 

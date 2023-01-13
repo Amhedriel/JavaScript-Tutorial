@@ -156,11 +156,10 @@ Generalmente se dividen en 2.
 
     * La **API de Google Maps** y la **API de OpenStreetMap** que permiten insertar mapas personalizados en tu sitio web y otras funciones similares.
 
-
 ---
 
 [**&#11176;** *Anterior* &#11007;](/JavaScript/TeoriaJS/README.md "Regresar a página anterior") 
-[Siguiente **&#129042;**](/JavaScript/TeoriaJS/002_variables.md "Variables")
+[Siguiente **&#129042;**](/JavaScript/TeoriaJS/001.1_estructuraDelCodigo.md "Estructura del código")
 
 [*Volver* **&ldca;**](/JavaScript/TeoriaJS/README.md "Regresar a título") 
 [*Subir* **&#11165;**](# "Ir al título")

@@ -4,12 +4,14 @@ Ahora veremos los tipos de datos que se pueden almacenar en una variable:
 
 * Seis tipos de datos **primitivos**, controlados por el `operador typeof`
 
-    * [`number`](003.1_number.md)     -> ``typeof instance === "number"``
-    * [`string`](003.2_strings.md)    -> ``typeof instance === "string"``
-    * [`boolean`](003.3_booleanos.md) -> ``typeof instance === "boolean"``
+    * [`number`](/JavaScript/TeoriaJS/003.1_number.md)     -> ``typeof instance === "number"``
+    * [`string`](/JavaScript/TeoriaJS/003.2_strings.md)    -> ``typeof instance === "string"``
+    * [`boolean`](/JavaScript/TeoriaJS/003.3_booleanos.md) -> ``typeof instance === "boolean"``
     * [`symbol`](#symbol)      -> ``typeof instance === "symbol"``
     * [`undefined`](#undefined)-> ``typeof instance === "undefined"``
+
     * [`bigint`](#bigint)      -> ``typeof instance === "bigint"``
+
 
 * [`null`]() -> ``typeof instance === "object"``. Tipo primitivo especial que tiene un uso adicional para su valor: si el objeto no se hereda, se muestra `null`;
 

@@ -1,6 +1,16 @@
 const miTitulo = document.querySelector('h1');
 miTitulo.textContent = '¡Hola, Mundo!';
 
+// Estructura de código
+/*
+alert("Hola");
+alert("Mundo");
+
+Hola
+Mundo
+*/
+
+
 /*--------VARIABLES--------*/
 /*
 const COLOR_RED = "#F00";
@@ -13,6 +23,7 @@ let color = COLOR_BLUE;
 alert(color); // #00f
 */
 
+/*
 // Trabajando con variables
 // Declara dos variables: admin y name.
 let admin,
@@ -27,6 +38,7 @@ admin = nombre;
 
 //  Muestra el valor de admin con alert()
 // alert(admin);
+*/
 
 /*--------NUMBER--------*/
 
@@ -49,6 +61,16 @@ let milMillones = 1_000_000_000;
 
 console.log(BILLON);
 console.log(milMillones);
+*/
+
+// Sintaxis
+/*
+new Number(123);
+var a = new Number('123'); // a === 123 es falso
+var b = Number('123'); // b === 123 es true
+
+a instanceof Number; // es true
+b instanceof Number; // es true
 */
 
 // Acortando ceros
@@ -74,7 +96,7 @@ console.log(MCS);
 let mcs = 1e-6; // 5 ceros a la izquierda de 1
 console.log(mcs);
 */
-
+/*
 // -3 divide por 1 con 3 ceros
 1e-3 === 1 / 1000; //0.001
 
@@ -87,3 +109,47 @@ console.log(mcs);
 console.log(1e-3);
 console.log(1.23e-6);
 console.log(1234e-2);
+*/
+
+// Números hexadecimales
+/*
+console.log(0xff); // 255
+console.log(0xFF); // 255 (lo mismo en mayúsculas o minúsculas)
+
+let a = 0b11111111; // binario de 255
+let b = 0o377; // octal de 255
+
+alert(a === b); // true, el mismo número 255 en ambos lados
+*/
+/*
+ // Utilizando el objeto `Number` para modificar todos los objetos `Number`
+miNumero = 10;
+console.log(miNumero);
+
+miNumero = new Number(65);
+console.log(miNumero);
+
+Number.prototype.descripcion = null;
+
+miNumero.descripcion = "Velocidad del viento";
+
+console.log(miNumero);
+*/
+/*
+// toString
+let num = 255;
+
+alert( num.toString(16)); // ff
+alert( num.toString(2));  // 11111111
+*/
+
+
+/*---------------STRINGS----------------*/
+
+let guestList = `Invitados:
+* juan
+* Pedro
+* María
+`;
+
+alert(guestList); 
