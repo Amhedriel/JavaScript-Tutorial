@@ -379,5 +379,3 @@ restar(10, 2);
 
 // Y así es como se crean las bibliotecas o librerías.
 
-
-

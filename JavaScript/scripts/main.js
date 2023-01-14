@@ -236,6 +236,65 @@ while ((pos = str.indexOf(objetivo, pos +1))!= -1){
   alert(pos)
 };
 */
+/*
+let str = "Widget con id";
+
+if (str.indexOf("widget")){
+  alert("Lo encontramos"); // no funciona
+}
+*/
+
+// alert("Widget con id".includes("Widget")); // true
+// alert("Hola".includes("Adiós")); // false
+
+// alert("Widget".includes("id")); // true
+// alert("Widget".includes("id", 3)); // false, desde la posición 3 no hay "id"
+
+// alert( "Widget".startsWith("Wid")); // true, "Widget" comienza con "Widget"
+// alert( "Widget".endsWith("get")); // true, "Widget" termina con "get"
+
+// let str = "stringify";
+// alert( str.slice(0, 5)); // 'strin', el substring desde 0 hasta 5 (sin incluir 5)
+// alert( str.slice(0, 1)); // 's', desde 0 hasta 1, pero sin incluir 1, por lo que solo el caracter en 0 
+
+
+// let str = "stringify";
+// // esto es lo mismo para substring
+// alert( str.substring(2, 6) ); //"ring"
+// alert( str.substring(6, 2) ); //"ring"
+
+// // ...pero no para slice:
+// alert( str.substring(2, 6) ); //"ring" (lo mismo)
+// alert( str.substring(6, 2) ); //"" (un string vacío)
+
+// let str = "stringify";
+// alert( str.substr(2, 4)); // "ring", desde la 2nda posición toma 4 caracteres
+
+// let str = "stringify";
+// alert( str.substr(-4, 2)); // "ring", desde la 2nda posición toma 4 caracteres
+
+// alert ("a" > "Z"); // true
+// alert ("Österrich" > "Zealand"); // true
+
+// mayúsculas y minúsculas tiene códigos diferentes
+// alert("Z".codePointAt(0)); // 90
+// alert("z".codePointAt(0)); // 122
+// alert("z".codePointAt(0).toString(16)); // 7a (si necesitamos el valor del código en hexadecimal)
+// alert("z".codePointAt(0).toString(2)); // 1111010 (binario)
+
+// alert( String.fromCodePoint(90)); // Z
+// alert( String.fromCodePoint(0x5a)); // Z con hexadecimal
+
+// let str = "";
+
+// for(let i = 65; i <= 220; i++){
+//   str += String.fromCodePoint(i);
+// }
+// console.log(str);
+
+// alert("Österreich".localeCompare("Zealand") ); // -1
+
+
 
 
 
