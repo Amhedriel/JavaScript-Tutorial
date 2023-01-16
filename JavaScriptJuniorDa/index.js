@@ -1,1 +1,2 @@
-alert("hola");
+caja = "Punta bola";
+alert(caja);

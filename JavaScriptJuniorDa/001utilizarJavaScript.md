@@ -71,7 +71,7 @@ Esto se lo verá cuando utilicemos Node.JS
 ---
 
 [**&#11176;** *Anterior* &#11007;](/JavaScriptJuniorDa/README.md "Menú Inicial") 
-[Siguiente **&#129042;**](/JavaScriptJuniorDa/002tiposDeDatos.md "Datos")
+[Siguiente **&#129042;**](/JavaScriptJuniorDa/02variables.md "Variables")
 
 [*Volver* **&ldca;**](/JavaScriptJuniorDa/README.md "Regresar a página Principal") 
 [*Subir* **&#11165;**](# "Ir al título")

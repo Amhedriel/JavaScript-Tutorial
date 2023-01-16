@@ -24,18 +24,27 @@ Es un lenguaje que se usa básicamente para el dinamismo de los sitios web, para
     - Contenido en un archivo .js.
     - Con un `require`.
 
-2. Variables
+2. [Variables](/JavaScriptJuniorDa/02variables.md)
 
     - Concepto
     
-    - Tipos de datos:
+    - [Tipos de datos:](/JavaScriptJuniorDa/002tiposDeDatos.md)
         + `strings`
         + `number`
         + `boolean`
     
-    - Casos especiales de datos:
+    - [Casos especiales de datos:](/JavaScriptJuniorDa/002.1casosEspeciales.md)
         + `Undefined`
         + `Null`
         + `NaN`
     
-    - Scope
+    - Ámbito (scope)
+
+
+---
+
+[**&#11176;** *Anterior* &#11007;](/README.md "Menú Inicial") 
+[Siguiente **&#129042;**](/JavaScriptJuniorDa/001utilizarJavaScript.md "Formas de utilizar JavaScript")
+
+[*Volver* **&ldca;**](/README.md "Regresar a página Principal") 
+[*Subir* **&#11165;**](# "Ir al título")
