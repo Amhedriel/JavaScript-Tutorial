@@ -90,16 +90,59 @@ let numero
 // Inicializada
 numero = 29;
 
+alert(numero);
+
 //> 29
 ```
-Ahora tenemos nuestra variable `numero` inicializada,
-```
-```
-```
-```
-```
-```
+Ahora tenemos nuestra variable `numero` inicializada y vemos el valor gracias a `alert()`
 
+Nosotros también podemos declararla e inicializarla al mismo tiempo
+```js
+let numero = 29;
+
+alert(numero);
+
+//> 29
+```
+Incluso podemos modificar el valor:
+
+```js
+let numero = 29;
+
+numero = 20;
+
+alert(numero);
+
+//>20
+```
+`const` se debe declarar e inicializar en el mismo momento, no se puede declarar y después inicializar.
+
+## Multiples variables
+
+Veamos un ejemplo con la función de `console.log()` el cual es menos intrusivo que un `alert()` y nos permite ver los resultados en la consola del navegador, podemos abrirlo con F12.
+```js
+let numero, numero2, numero3;
+
+numero = 2;
+numero2 = 9;
+numero3 = 12;
+
+console.log(numero);
+console.log(numero2);
+console.log(numero3);
+
+//>2
+//>9
+//>12
+```
+Podemos declarar las variables multiples de esta forma:
+
+```js
+let numero, 
+numero2, 
+numero3;
+```
+De esta forma es un poco más visual la cantidad de variables que tenemos.
 
 ---
 
