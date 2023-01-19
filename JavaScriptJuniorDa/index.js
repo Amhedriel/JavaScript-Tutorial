@@ -1,5 +1,4 @@
 // Index.js para pruebas de JavaScript jr.
-numero = 10
-numero **= 2;
+frase = 'Soy "David" y estoy caminando.';
 
-document.write(numero);
+document.write(frase);
