@@ -1,5 +1,9 @@
 # Tipos de Datos
+[**&#11176;** *Anterior* &#11007;](/JavaScriptJuniorDa/02variables.md "Variables en JavaScript") 
+[*Volver* **&ldca;**](/JavaScriptJuniorDa/README.md "Regresar a página Principal") 
+[Siguiente **&#129042;**](/JavaScriptJuniorDa/002.1casosEspeciales.md "Casos Especiales")
 
+---
 Tenemos varios tipos de datos, para empezar los más importantes:
 
 - [**`strings`**](#strings) - O cadenas de datos.

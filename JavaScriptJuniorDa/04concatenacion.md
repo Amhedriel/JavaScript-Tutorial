@@ -1,5 +1,9 @@
 # 4. Concatenación
+[**&#11176;** *Anterior* &#11007;](/JavaScriptJuniorDa/03operadores.md "Operadores")
+[*Volver* **&ldca;**](/JavaScriptJuniorDa/README.md "Regresar a página Principal") 
+[Siguiente **&#129042;**](/JavaScriptJuniorDa/05condicionales.md "Condicionales")
 
+---
 - [Definición](#definición)
 - [Para números forzamos string](#números "Para forzar números \" \" + 10 + 5")
 - [Con `concat`](#concat)
@@ -182,8 +186,8 @@ document.write(frase);
 ```
 ---
 
-[**&#11176;** *Anterior* &#11007;](/JavaScriptJuniorDa/03operadores.md "Prompt") 
-[Siguiente **&#129042;**](/JavaScriptJuniorDa/0 "Concatenación")
+[**&#11176;** *Anterior* &#11007;](/JavaScriptJuniorDa/03operadores.md "Operadores") 
+[Siguiente **&#129042;**](/JavaScriptJuniorDa/05condicionales.md "Condicionales")
 
 [*Volver* **&ldca;**](/JavaScriptJuniorDa/README.md "Regresar a página Principal") 
 [*Subir* **&#11165;**](#4-concatenación "Ir al título")

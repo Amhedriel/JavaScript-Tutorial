@@ -1,6 +1,10 @@
 # 3. Operadores
+[**&#11176;** *Anterior* &#11007;](/JavaScriptJuniorDa/002.3windows_Prompt().md "Prompt")
+[*Volver* **&ldca;**](/JavaScriptJuniorDa/README.md "Regresar a página Principal") 
+[Siguiente **&#129042;**](/JavaScriptJuniorDa/04concatenacion.md "Concatenación")
 
-Existen varios operadores en JavaScript.O
+---
+Existen varios operadores en JavaScript.
 
 En este apartado veremos algunos tipos de operadores:
 - [Valor de retorno y encadenamiento](#valor-de-retorno-y-encadenamiento)
@@ -273,12 +277,143 @@ var var2 = 4;
 |**Menor que `(<)`**|	Devuelve ``true`` si el operando izquierdo es menor que el operando derecho.|**`var1 < var2`** <br> **`"2" < 12`**|
 |**Menor o igual <br> `(<=)`**|Devuelve ``true`` si el operando izquierdo es menor o igual que el operando derecho.|**`var1 <= var2 var2 <= 5`**|
 
+### ***Igualdad***
+Para comparar datos y esperar la resolución `true` en caso de **ser iguales** o `false` en caso de no serlo.
+```js
+let texto = "Texto 1";
+let texto2 = "Texto 1";
+
+document.write(texto == texto2);
+
+// > true
+```
+Otro caso:
+```js
+let numero = 3;
+let texto = "3";
+
+document.write(numero == texto);
+
+// > true
+```
+Estaos comparando un `number` con un `string`, pero para JavaScript estos valores son iguales a pesar de ser tipos de datos distintos, esto solo pregunta si ambos son `3`.
+
+### ***No es igual***
+Para comparar datos y esperar la resolución `true` en caso de **no ser iguales** o `false` en caso de serlo.
+
+```js
+let numero = 3;
+let numero1 = 2;
+
+document.write(numero != numero1);
+
+// > true
+```
+Combinando `string` con `number`.
+```js
+let numero = 3;
+let texto = "3";
+
+document.write(numero != texto);
+
+// > false
+```
+
+### ***Estrictamente igual***
+Como vimos con `==` tenemos el problema de la ambigüedad, no diferencia de los tipos de datos, por eso debemos usar **estrictamente igual** `===`, con esto preguntamos si tiene el mismo valor y el mismo tipo de dato:
+
+```js
+let numero = 3;
+let texto = "3";
+
+document.write(numero === texto);
+
+// > false
+```
+
+### ***Desigualdad estricta***
+Lo mismo con **estrictamente desigual** `+==`
+
+```js
+let numero = 3;
+let texto = "3";
+
+document.write(numero !== texto);
+
+// > true
+```
+### ***Mayor, menor, igual, que***
+Con los primeros 2 solo podemos tener uno de dos resultados posibles, `true` o `false`.
+
+```js
+// Mayor que
+
+let numero = 3;
+let numero1 = 2;
+
+document.write(numero > numero1);
+
+// > true
+
+let numero = 3;
+let numero1 = 2;
+
+let resultado = numero > numero1;
+
+document.write(resultado);
+
+// > true
+```
+```js
+// Menor que
+let numero = 3;
+let numero1 = 2;
+
+let resultado = numero < numero1;
+
+document.write(resultado);
+
+// > false
+
+let numero = 2;
+let numero1 = 3;
+
+let resultado = numero < numero1;
+
+document.write(resultado);
+
+// > true
+```
+```js
+// Mayor o igual que
+let numero = 3;
+let numero1 = 3;
+
+let resultado = numero >= numero1;
+
+document.write(resultado);
+
+// > true
+```
+```js
+// Menor o igual que
+let numero = 3;
+let numero1 = 3;
+
+let resultado = numero <= numero1;
+
+document.write(resultado);
+
+// > true
+```
 
 ---
 
 ## Operadores lógicos
 
-Los operadores lógicos se utilizan normalmente con valores booleanos (lógicos); cuando lo son, devuelven un valor booleano. Sin embargo, los operadores ``&&`` y ``||`` en realidad devuelven el valor de uno de los operandos especificados, por lo que si estos operadores se utilizan con valores no booleanos, pueden devolver un valor no booleano. Los operadores lógicos se describen en la siguiente tabla.
+Nos devuelven un resultado `true` o `false` a partir de que se cumpla (o no) una **condición**, su resultado es ``booleano``, y sus operandos son valores lógicos o asimilables a ellos.
+
+Los operadores lógicos se utilizan normalmente con valores ``booleanos`` (lógicos); cuando lo son, devuelven un valor ``booleano``. Sin embargo, los operadores ``&&`` y ``||`` en realidad devuelven el valor de uno de los operandos especificados, por lo que si estos operadores se utilizan con valores no booleanos, pueden devolver un valor no booleano. Los operadores lógicos se describen en la siguiente tabla.
 
 |OPERADOR|USO|DESCRIPCIÓN|
 |---|:---:|---|
@@ -286,6 +421,55 @@ Los operadores lógicos se utilizan normalmente con valores booleanos (lógicos)
 |**OR lógico `(\|\|)`**|`expr1 \|\| expr2`|Devuelve ``expr1`` si se puede convertir a ``true``; de lo contrario, devuelve ``expr2``. <br>Por lo tanto, cuando se usa con valores booleanos, ``\|\|`` devuelve ``true`` si alguno de los operandos es ``true``; <br> si ambos son falsos, devuelve ``false``.|
 |**NOT lógico `(!)`**|`!expr`|Devuelve ``false`` si su único operando se puede convertir a ``true``; de lo contrario, devuelve ``true``.|
 ||||
+
+```js
+let valTrue = true;
+let valTrue2 = true;
+let valFalse = false;
+let valFalse2 = false;
+
+let resultAnd = valTrue && valTrue2;
+let resultOr = valTrue || valTrue2;
+let resultNot = !valTrue;
+
+console.log(resultAnd);
+// > true
+console.log(resultOr);
+// > true
+console.log(resultNot);
+// > false
+```
+Basándonos en reglas o tablas de comparación, `&&` solo es `true` si ambos són `true`.
+```js
+let numero = 3;
+let numero1 = 2;
+
+document.writeln(numero >= numero1); // > true
+
+document.writeln(numero != numero1); // > true
+
+let afirmacion1 = numero >= numero1;
+
+let afirmacion2 = numero != numero1; 
+
+document.write(afirmacion1 && afirmacion2);
+
+// > true
+// > true
+// > true
+```
+La tabla de `||` es contrario, solo nos devuelve `false` si ambos son `false`.
+
+```js
+let num = 5;
+let num1 = 10;
+
+document.writeln(num < num1 || num == num1);
+
+// > true
+```
+
+Y con `!` siempre regresará lo contrario de lo que le devolvemos, si colocamos un `true` nos devuelve `false`.
 
 Ejemplos de expresiones que se pueden convertir a ``false`` son aquellos que se evalúan como ``null``, 0, ``NaN``, la cadena vacía ``("")`` o ``undefined``.
 
@@ -332,10 +516,9 @@ console.log(typeof "x");
 // > string
 ```
 
-
 ---
 
-[**&#11176;** *Anterior* &#11007;](/JavaScriptJuniorDa/002.3windows_Prompt().md "Prompt") 
+[**&#11176;** *Anterior* &#11007;](/JavaScriptJuniorDa/002.3windows_Prompt().md "Prompt")
 [Siguiente **&#129042;**](/JavaScriptJuniorDa/04concatenacion.md "Concatenación")
 
 [*Volver* **&ldca;**](/JavaScriptJuniorDa/README.md "Regresar a página Principal") 

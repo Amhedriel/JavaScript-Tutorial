@@ -1,6 +1,17 @@
 # 1. Formas de utilizar JavaScript
+[**&#11176;** *Anterior* &#11007;](/JavaScriptJuniorDa/README.md "Menú Inicial") 
+[*Volver* **&ldca;**](/JavaScriptJuniorDa/README.md "Regresar a página Principal") 
+[Siguiente **&#129042;**](/JavaScriptJuniorDa/02variables.md "Variables")
+
+---
+
 
 Existen varias formar de utilizar JavaScript:
+
+- [En línea](#en-línea)
+- [Contenido en la etiqueta ``<script></script>``](#contenido-en-la-etiqueta-scriptscript-dentro-el-html)
+- [Contenido en un archivo .js.](#contenido-en-un-archivo-js)
+- [Con un `require`](#con-un-require)
 
 ## En línea 
 
@@ -74,4 +85,4 @@ Esto se lo verá cuando utilicemos Node.JS
 [Siguiente **&#129042;**](/JavaScriptJuniorDa/02variables.md "Variables")
 
 [*Volver* **&ldca;**](/JavaScriptJuniorDa/README.md "Regresar a página Principal") 
-[*Subir* **&#11165;**](# "Ir al título")
+[*Subir* **&#11165;**](#1-formas-de-utilizar-javascript "Ir al título")
