@@ -1,7 +1,7 @@
 # Condicionales
 [**&#11176;** *Anterior* &#11007;](/JavaScriptJuniorDa/04concatenacion.md "Concatenación")
 [*Volver* **&ldca;**](/JavaScriptJuniorDa/README.md "Regresar a página Principal") 
-[Siguiente **&#129042;**](/JavaScriptJuniorDa/ "")
+[Siguiente **&#129042;**](/JavaScriptJuniorDa/06arrays.md "Arrays")
 
 ---
 Muy a menudo, cuando escribe código, desea realizar diferentes acciones para diferentes decisiones.
@@ -147,10 +147,11 @@ if(nombre == "David" && apellido == "Beltrán"){
 
 // > Buenas David
 ```
+
 ---
 
 [**&#11176;** *Anterior* &#11007;](/JavaScriptJuniorDa/04concatenacion.md "Concatenación") 
-[Siguiente **&#129042;**](/JavaScriptJuniorDa/0 "")
+[Siguiente **&#129042;**](/JavaScriptJuniorDa/06arrays.md "Arrays")
 
 [*Volver* **&ldca;**](/JavaScriptJuniorDa/README.md "Regresar a página Principal") 
 [*Subir* **&#11165;**](#condicionales "Ir al título")
