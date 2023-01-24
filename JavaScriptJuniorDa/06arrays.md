@@ -7,6 +7,7 @@
 Los objetos te permiten almacenar colecciones de datos a través de nombres.
 
 * [Declaración](#declaración)
+* [Obtener datos](#obtener-datos)
     * [Coma residual](#coma-residual)
 * [***`arrays`*** asociativos](#arrays-asociativos)
 
@@ -37,6 +38,7 @@ La segunda suele ser la más usada. Con esto nosotros agruparemos los datos que 
 ```js
 let fruits = ["Apple", "Orange", "Banana"];
 ```
+## Obtener datos
 Nosotros podemos acceder a esta información.
 
 Los elementos del array están numerados comenzando desde cero.
@@ -244,6 +246,7 @@ la memoria ram es : 32GB
 el espacio en disco es de 2TB*/
 ```
 Se trabaja con `array` para poder ordenar los datos y manejarlos de la mejor forma posible.
+
 
 ---
 
