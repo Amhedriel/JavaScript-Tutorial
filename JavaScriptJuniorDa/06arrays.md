@@ -9,7 +9,7 @@ Los objetos te permiten almacenar colecciones de datos a través de nombres.
 * [Declaración](#declaración)
 * [Obtener datos](#obtener-datos)
     * [Coma residual](#coma-residual)
-* [***`arrays`*** asociativos](#arrays-asociativos)
+* [***`arrays`*** asociativos](#array-asociativos)
 
 Pero a menudo necesitamos una colección ordenada, donde tenemos un 1ro, un 2do, un 3er elemento y así sucesivamente. Por ejemplo, necesitamos almacenar una lista de algo: usuarios, bienes, elementos HTML, etc.
 
@@ -251,7 +251,7 @@ Se trabaja con `array` para poder ordenar los datos y manejarlos de la mejor for
 ---
 
 [**&#11176;** *Anterior* &#11007;](/JavaScriptJuniorDa/05condicionales.md "Condicionales") 
-[Siguiente **&#129042;**](/JavaScriptJuniorDa/0 "")
+[Siguiente **&#129042;**](/JavaScriptJuniorDa/006.1arraysElementos.md "Array Elements")
 
 [*Volver* **&ldca;**](/JavaScriptJuniorDa/README.md "Regresar a página Principal") 
 [*Subir* **&#11165;**](#arrays "Ir al título")
