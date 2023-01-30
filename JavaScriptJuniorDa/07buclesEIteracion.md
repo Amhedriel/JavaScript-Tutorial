@@ -403,6 +403,8 @@ for (let i = 0; i < 10; i++) {
 ## ***`label`*** o etiquetas para break/continue
 A veces necesitamos salirnos de múltiples bucles anidados al mismo tiempo.
 
+El `label` es una sentencia que nos permite asociar un bucle, excepto `for..ich`, a un nombre para poder terminarlo cuando queramos.
+
 Por ejemplo, en el código debajo usamos un bucle sobre ``i`` y ``j``, solicitando las coordenadas ``(i,j)`` de ``(0,0)`` a ``(3,3)``:
 
 ```js
@@ -456,6 +458,119 @@ En el código de arriba, ``break outer`` mira hacia arriba por la **etiqueta** l
 
 Así que el control va directamente de ``(*)`` a ``alert('Listo!')``.
 
+Digamos, que pasaría si nosotros quisieramos agregar un `array` dentro de otro `array`:
+
+```js
+let array1 = ["María", "Josefa", "Roberta"];
+let array2 = ["Pedro", "Marcelo", array1];
+
+// si nosotros queremos recorrer el array
+for (let array in array2){
+  if (array == 2){
+    for (let array of array1) console.log(array);
+  } else {
+    console.log(array)
+  }
+}
+
+// > 0 1 María Josefa Roberta
+```
+Y de este modo recorremos un bucle dentro de otro bucle. Recordemos que ``for..in`` mos muestra el índice y no los nombres de los datos en sí.
+
+Para poder verlos digitamos `console.log(array2)` en `else` un (`array2 in array`) `array[array]`:
+
+```js
+let array1 = ["María", "Josefa", "Roberta"];
+let array2 = ["Pedro", "Marcelo", array1];
+
+// si nosotros queremos recorrer el array
+for (let array in array2){
+  if (array == 2){
+    for (let array of array1) console.log(array);
+  } else {
+    console.log(array2[array]);
+  }
+}
+
+// > Pedro Marcelo María Josefa Roberta
+``` 
+Analizamos: primero recorrimos el segundo ``array``, `array2` con `for (let array in array2)` en caso de que estemos en la posición 2 `if (array == 2)` vamos a recorrer otro `array`, `for (let array of array1) console.log(array);` porque la posición 2 nos va a devolver un ``array``, recordemos que colocamos un ``array1`` dentro de otro ``array2``, `array2 = ["Pedro", "Marcelo", array1];`, por lo tanto la posición 2 va a ser un `array` `if (array == 2)`, con esto simplemente recorremos este segundo `array` y lo mostramos en pantalla, en caso de que no `else { console.log( array2[array] ); }` mostramos `Pedro Marcelo`.
+
+Ahora si nosotros quisieramos terminar el bucle, si nos muestra el caso de ser 2 `(array == 2)`, podemos usar `break` o `continue`, para terminar el proceso o ignorar ese dato,
+
+```js
+let array1 = ["María", "Josefa", "Roberta"];
+let array2 = ["Pedro", "Marcelo", array1, "Jose"];
+
+for (let array in array2){
+  if (array == 2){
+
+    for (let array of array1) {
+      break
+      console.log(array);
+    }
+
+  } else {
+    console.log(array2[array]);
+  }
+}
+
+// > Pedro Marcelo Jose
+``` 
+Como podemos ver, con `break` evitamos que nso muestre el `array1`, sin embargo no termino el proceso del todo, debido a que `break` sólo está terminando el proceso del segundo `for` y no del primero o principal, por ese motivo continuo con el proceso y llegar hasta `Jose`.
+Pero nosotros queremos que llegado a ese punto finalice el programa, como hacerlo?, simplemente le agregamos un nombre cualquiera (el `label`) seguido de dos puntos `forLista:`
+
+```js
+let array1 = ["María", "Josefa", "Roberta"];
+let array2 = ["Pedro", "Marcelo", array1, "Jose"];
+
+forLista:
+for (let array in array2){
+  if (array == 2){
+
+    for (let array of array1) {
+      // y nosotros queremos terminar acá, entonces colocamos el "label" sin :
+      break forLista
+      console.log(array);
+    }
+
+  } else {
+    console.log(array2[array]);
+  }
+}
+
+// > Pedro Marcelo
+``` 
+En pocas palabras todo el `for` se llama `forLista`, y cuando el programa encuentra la posición 2 `if (array == 2)` entonces termina todo `break forLista`.
+
+`continue`podemos usarlo de la siguiente forma :
+
+```js
+let array1 = ["María", "Josefa", "Roberta"];
+let array2 = ["Pedro", "Marcelo", array1, "Jose"];
+
+forLista:
+for (let array in array2){
+  if (array == 2){
+
+    for (let array of array1) {
+
+      if (array == "María") {
+      continue;
+    }
+      
+    console.log(array);
+    }
+
+  } else {
+    console.log(array2[array]);
+  }
+}
+
+// > Pedro Marcelo Josefa Roberta Jose
+``` 
+Con `continue` saltó `María` y continuó, con `break` termina ese bucle y el `array1` no se muestra, pero continúa con el siguiente, a menos que se coloque el `label`
+
 También podemos mover la **etiqueta** a una línea separada:
 
 ```js
@@ -483,6 +598,7 @@ Si queremos detener la iteración actual y adelantarnos a la siguiente, podemos 
 
 ``break/continue`` soportan etiquetas antes del bucle. Una etiqueta es la única forma de usar 
 ``break/continue`` para escapar de un bucle anidado para ir a uno exterior.
+`label` es una sentencia que nos permite asociar un bucle.
 
 
 ---
