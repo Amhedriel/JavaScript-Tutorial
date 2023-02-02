@@ -1,0 +1,25 @@
+*{
+  margin: 0%;
+  color: rgb(255,255,255,9);
+}
+
+
+.animacion-gradiente{
+  height: 798px;
+  background-color: #fff;
+  background: linear-gradient(90deg, rgb(0, 18, 56) 0%, rgba(255,143,38,1) 0%, rgb(125, 84, 206) 48%, rgb(2, 226, 255) 100%);
+  background-size: 300% 100%;  /*Asignamos un ancho y alto*/
+  animation: gradiente 25s ease-in-out infinite; /*'gradiente' es el nombre de la animación que crearemos, tarda en completarse 25s y vuelve a empezar infinitamente*/
+}
+
+@keyframes gradiente {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
