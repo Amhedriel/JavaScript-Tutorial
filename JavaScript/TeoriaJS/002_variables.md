@@ -24,9 +24,9 @@ Nosotros en programación tenemos lo que e definen como palabras reservados, que
 
 En nuestro caso estamos usando JavaScript y para definir una variable debemos usar la palabra reservada **var** que está casi en desuso hoy en día, pero también tenemos otra llamada **let** que es la más utilizada.
 
-* Las variables se pueden declarar con la palabra reservada ***"var"***, estas variables se pueden considerar como globales.
-* También se pueden declarar con la palabra reservada ***"let"*** y estas serán usadas dentro de un bloque de código.
-* Igualmente está la declaración con la palabra reservada ***"const"*** y se usarán cuando el valor no cambie.
+* Las variables se pueden **declarar** con la palabra reservada ***"var"***, estas variables se pueden considerar como globales.
+* También se pueden **declarar** con la palabra reservada ***"let"*** y estas serán usadas dentro de un bloque de código.
+* Igualmente está la **declaración** con la palabra reservada ***"const"*** y se usarán cuando el valor no cambie.
 
 Para generar una **variable** en JavaScript, generalmente usamos `let`.
 
