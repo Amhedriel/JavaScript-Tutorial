@@ -8,7 +8,7 @@
 - [Declarar](#declarar)
 - [Inicializar](#inicializar)
 - [Multiples variables](#multiples-variables)
-- [``camelCase`` Nombrar Variables](#camelcase)
+- [``camelCase`` Nombrar Variables](#camelcase-nombrar-variables)
     - [Nombres descriptivos](#nombres-descriptivos)
     - [Índices y contadores](#índices-y-contadores)
     - [Constantes, clases y variables](#constantes-clases-y-variables)
