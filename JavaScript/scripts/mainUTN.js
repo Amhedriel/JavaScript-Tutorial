@@ -44,5 +44,16 @@ let indefinido = undefined; // Tipo Undefined
 
 */
 
-let mcs = 1e-6; // 5 ceros a la izquierda de 1
-console.log(mcs);
+// let mcs = 1e-6; // 5 ceros a la izquierda de 1
+// console.log(mcs);
+
+// SCOPE
+
+let x = 5;
+
+{
+  let x = 2;
+  console.log(x)
+}
+
+console.log(x)

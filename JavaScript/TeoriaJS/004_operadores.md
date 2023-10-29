@@ -1,5 +1,5 @@
 # Operadores
-[**&#11176;** *Anterior* &#11007;](/JavaScript/TeoriaJS/003.3_booleanos.md "Booleanos")
+[**&#11176;** *Anterior* &#11007;](/JavaScript/TeoriaJS/003.4_Null_NaN_Undefined.md "Casos de datos especiales")
 [*Volver* **&ldca;**](/JavaScriptJuniorDa/README.md "Regresar a página Principal") 
 [Siguiente **&#129042;**](/JavaScript/TeoriaJS/005_operadoresLogicos.md "Operadores lógicos JavaScript")
 
@@ -518,8 +518,8 @@ console.log(typeof "x");
 
 ---
 
-[**&#11176;** *Anterior* &#11007;](/JavaScript/TeoriaJS/003.3_booleanos.md "Booleanos")
+[**&#11176;** *Anterior* &#11007;](/JavaScript/TeoriaJS/003.4_Null_NaN_Undefined.md "Casos de datos especiales")
 [Siguiente **&#129042;**](/JavaScript/TeoriaJS/005_operadoresLogicos.md "Operadores lógicos JavaScript")
 
 [*Volver* **&ldca;**](/JavaScriptJuniorDa/README.md "Regresar a página Principal") 
-[*Subir* **&#11165;**](#3-operadores"Ir al título")
+[*Subir* **&#11165;**](#operadores "Ir al título")

@@ -21,6 +21,7 @@ Los temas están ordenados de manera que se fue instruyendo en Innovaccion Launc
 * [Ciclo condicional de una iteración mínimo](/JavaScript/TeoriaJS/012_cicloDeIteracionMinimo.md "while, do while")
 * [ Ciclo condicional de una iteración mínimo](/JavaScript/TeoriaJS/013_cicloForItercacionControlada.md "for")
 * [Opciones para evitar anidar condicionales](/JavaScript/TeoriaJS/014_evitarAnidarCondicionales.md "switch")
+* [Scope](/JavaScript/TeoriaJS/Scope.md "Scope")
 
 Terminado esto lo siguiente es conocer y saber manejar las funciones, arrays, etc.
 
